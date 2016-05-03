@@ -12,8 +12,123 @@
     tools:context="com.example.tylerbakke.myapplication.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:orientation="vertical">
+
+        <!-- clothing item image -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/sym_def_app_icon"/>
+
+        <TextView
+            android:id="@+id/closet_item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/attributes_text"
+            android:text="@string/category" />
+
+        <TextView
+            android:id="@+id/closet_item_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/attributes_text"
+            android:text="@string/style" />
+
+        <TextView
+            android:id="@+id/closet_item_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/attributes_text"
+            android:text="@string/weather" />
+
+        <TextView
+            android:id="@+id/closet_item_occasion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/attributes_text"
+            android:text="@string/occasion" />
+
+        <TextView
+            android:id="@+id/closet_item_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/attributes_text"
+            android:text="@string/color" />
+
+        <TextView
+            android:id="@+id/closet_item_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/attributes_text"
+            android:text="@string/notes" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="CLOSET"
+            android:id="@+id/closet"
+            android:layout_gravity="bottom"
+            android:background="#F5FAFA"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="OUTFIT\n GENERATOR"
+            android:id="@+id/outfit_generator"
+            android:layout_gravity="bottom"
+            android:background="#ACD1E9"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="LOOK BOOK"
+            android:id="@+id/look_book"
+            android:layout_gravity="bottom"
+            android:background="#6D929B"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="MORE"
+            android:id="@+id/more"
+            android:layout_gravity="bottom"
+            android:background="#E8D0A9"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:singleLine="false" />
+
+    </LinearLayout>
+
 </RelativeLayout>

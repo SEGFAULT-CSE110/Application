@@ -10,6 +10,9 @@ import java.util.List;
 public class Closet {
 
     private List<Clothing> list_clothes = new ArrayList<Clothing>();
+    private int numCategories;
+    //we need a way to check how many categories were added
+
 
     public void addClothing(Clothing val){
         list_clothes.add(val);

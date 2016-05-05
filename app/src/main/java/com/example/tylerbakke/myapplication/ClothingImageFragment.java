@@ -118,7 +118,7 @@ public class ClothingImageFragment extends Fragment implements AdapterView.OnCli
             //Now handle the main ImageView thumbnails
             ImageView imageView;
             if (convertView == null){// if it's not recycled, instantiate and initialize
-                imageView = new RecyclingImageView(mContext);
+                imageView = new ImageView(mContext);
                 imageView.setScaleType(ImageView.ScaleType.CENTER_CROP); //centers and crops the image
                 imageView.setLayoutParams(mImageViewLayoutParams);
             } else{ //reuse the converted vivew

@@ -10,8 +10,20 @@ import java.util.List;
 public class Closet {
 
     private List<Clothing> list_clothes = new ArrayList<Clothing>();
-    private int numCategories;
-    //we need a way to check how many categories were added
+
+
+
+    /**
+     * This method will return all clothing matching the preferences given
+     * Used in search, filter, etc.
+     * @param pref
+     * @return
+     */
+    public List<Clothing> filter(PreferenceList pref){
+
+        return null;
+
+    }
 
 
     public void addClothing(Clothing val){
@@ -20,6 +32,13 @@ public class Closet {
 
     public void removeClothing(Clothing val){
         list_clothes.remove(val);
+    }
+
+    /**
+     * Someone think about this
+     */
+    public void getClothing(){
+
     }
 
     public List<Clothing> getList(){

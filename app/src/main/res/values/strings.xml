@@ -7,5 +7,12 @@
     <string name="weather">Weather:</string>
     <string name="occasion">Occasion:</string>
     <string name="color">Color:</string>
+    <string name="tags">Tags:</string>
     <string name="notes">Notes:</string>
+
+    <!-- bottom bar -->
+    <string name="closet">closet</string>
+    <string name="outfit_gen">outfit generator</string>
+    <string name="lookbook">lookbook</string>
+    <string name="more">more</string>
 </resources>

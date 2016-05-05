@@ -14,6 +14,9 @@
     android:background="#C1DAD6">
 
 
+
+
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -22,6 +25,32 @@
         android:layout_above="@+id/bottombar"
         android:id="@+id/imageButtons"
        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="done "
+                android:id="@+id/donebutton"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:background="#b7afa3"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose for me"
+                android:id="@+id/button"
+                android:layout_weight="1"
+                android:background="#ACD1E9"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
 
 
         <ImageButton
@@ -59,7 +88,6 @@
 
             android:layout_weight="1"
             android:background="@mipmap/shoes" />
-
 
 
     </LinearLayout>

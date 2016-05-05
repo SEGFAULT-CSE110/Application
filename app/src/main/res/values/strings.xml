@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="action_settings">Settings</string>
+
+    <!-- bottom bar -->
+    <string name="closet">closet</string>
+    <string name="outfit_gen">outfit generator</string>
+    <string name="lookbook">lookbook</string>
+    <string name="more">more</string>
 </resources>

@@ -10,6 +10,14 @@ public class Lookbook {
     private List<Outfit> mOutfitList;
     private Closet mBelongingCloset;
 
+    public boolean writeToDatabase(){
+        return false; //returns true if written successfully.
+    }
+
+    public boolean readFromDatabase(){
+        return false;//return true if read successfully
+    }
+
     public Outfit generateOutfit(PreferenceList preferenceList){
         return null;
     }

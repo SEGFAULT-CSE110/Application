@@ -26,6 +26,14 @@ public class Closet {
     }
 
 
+    public boolean writeToDatabase(){
+        return false; //returns true if written successfully.
+    }
+
+    public boolean readFromDatabase(){
+        return false;//return true if read successfully
+    }
+
     public void addClothing(Clothing val){
         list_clothes.add(val);
     }

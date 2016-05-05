@@ -13,57 +13,60 @@
     tools:context="com.example.tylerbakke.myapplication.MainActivity"
     android:background="#C1DAD6">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="OUTFIT GENERATOR"
-        android:id="@+id/title"
-        android:textColor=" #ACD1E9"
-        android:textStyle="bold"
-        android:textSize="24dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="#F5FAFA" />
-
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="47dp">
+        android:layout_weight="1"
+        android:layout_above="@+id/bottombar"
+        android:id="@+id/imageButtons"
+       >
 
-        <RadioButton
+
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Top"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/accessoriesButton"
+
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:id="@+id/topButton"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
 
-        <RadioButton
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Bottom"
             android:id="@+id/bottomButton"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
 
-        <RadioButton
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Shoes"
+            android:layout_gravity="center_horizontal"
             android:id="@+id/shoesButton"
-            android:layout_gravity="center_vertical" />
+
+            android:layout_weight="1" />
+
+
+
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottombar"
         android:gravity="center_vertical|bottom"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="40dp">
+
+        android:layout_weight="0">
 
         <Button
             style="?android:attr/buttonStyleSmall"

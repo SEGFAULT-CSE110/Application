@@ -11,10 +11,17 @@
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:text="@string/closet"
         android:id="@+id/closet"
         android:layout_gravity="bottom"
         android:background="@color/colorButtonCloset"
+=======
+        android:text="CLOSET"
+        android:id="@+id/closet"
+        android:layout_gravity="bottom"
+        android:background="#F5FAFA"
+>>>>>>> refs/remotes/origin/ClosetChris
         android:textStyle="bold"
         android:textAlignment="center" />
 
@@ -24,10 +31,17 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:text="@string/outfit_gen"
         android:id="@+id/outfit_generator"
         android:layout_gravity="bottom"
         android:background="@color/colorButtonOutfitGen"
+=======
+        android:text="OUTFIT\n GENERATOR"
+        android:id="@+id/outfit_generator"
+        android:layout_gravity="bottom"
+        android:background="#ACD1E9"
+>>>>>>> refs/remotes/origin/ClosetChris
         android:textStyle="bold"
         android:textAlignment="center" />
 
@@ -36,10 +50,17 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:text="@string/lookbook"
         android:id="@+id/look_book"
         android:layout_gravity="bottom"
         android:background="@color/colorButtonLookbook"
+=======
+        android:text="LOOK BOOK"
+        android:id="@+id/look_book"
+        android:layout_gravity="bottom"
+        android:background="#6D929B"
+>>>>>>> refs/remotes/origin/ClosetChris
         android:textStyle="bold"
         android:textAlignment="center" />
 
@@ -49,10 +70,17 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:text="@string/more"
         android:id="@+id/more"
         android:layout_gravity="bottom"
         android:background="@color/colorButtonMore"
+=======
+        android:text="MORE"
+        android:id="@+id/more"
+        android:layout_gravity="bottom"
+        android:background="#E8D0A9"
+>>>>>>> refs/remotes/origin/ClosetChris
         android:textStyle="bold"
         android:textAlignment="center"
         android:singleLine="false" />

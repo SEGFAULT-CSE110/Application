@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tylerbakke.myapplication.MainActivity"
+    android:background="#C1DAD6">
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_above="@+id/bottombar"
+        android:id="@+id/imageButtons"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="done "
+                android:id="@+id/donebutton"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:background="#b7afa3"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose for me"
+                android:id="@+id/button"
+                android:layout_weight="1"
+                android:background="#ACD1E9"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/accessoriesButton"
+            android:scaleType="center"
+
+            android:layout_weight="1"
+            android:cropToPadding="false"
+            android:background="@mipmap/accessories" />
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/topButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@mipmap/tops" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/bottomButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@mipmap/bottom" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/shoesButton"
+
+            android:layout_weight="1"
+            android:background="@mipmap/shoes" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottombar"
+        android:gravity="center_vertical|bottom"
+        android:layout_alignParentBottom="true"
+
+        android:layout_weight="0">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="CLOSET"
+            android:id="@+id/closet"
+            android:layout_gravity="bottom"
+            android:background="#F5FAFA"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="OUTFIT\n GENERATOR"
+            android:id="@+id/outfit_generator"
+            android:layout_gravity="bottom"
+            android:background="#ACD1E9"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="LOOK BOOK"
+            android:id="@+id/look_book"
+            android:layout_gravity="bottom"
+            android:background="#6D929B"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="MORE"
+            android:id="@+id/more"
+            android:layout_gravity="bottom"
+            android:background="#E8D0A9"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:singleLine="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,22 +1,20 @@
 package com.example.tylerbakke.myapplication;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class ViewClothingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.view_clothing_activity);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+<<<<<<< HEAD:app/src/main/java/com/example/tylerbakke/myapplication/MainActivity.java
 
         /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -28,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         */
+=======
+>>>>>>> refs/remotes/origin/AllanCloset:app/src/main/java/com/example/tylerbakke/myapplication/ViewClothingActivity.java
     }
 
     @Override

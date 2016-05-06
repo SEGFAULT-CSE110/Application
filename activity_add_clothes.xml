@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    tools:context="com.example.tylerbakke.myapplication.MainActivity">
+    tools:context="com.example.allanmartinez.add_clothes.addClothes">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,6 +22,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
+<<<<<<< HEAD:app/src/main/res/layout/activity_main.xml
     <include layout="@layout/content_main" />
 <!--
     <android.support.design.widget.FloatingActionButton
@@ -32,5 +33,10 @@
         android:layout_margin="@dimen/fab_margin"
         android:src="@android:drawable/ic_dialog_email" />
 -->
+=======
+    <include layout="@layout/content_add_clothes" />
+
+
+>>>>>>> refs/remotes/origin/AllanCloset:activity_add_clothes.xml
 
 </android.support.design.widget.CoordinatorLayout>

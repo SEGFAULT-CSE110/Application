@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="app_name">View Article</string>
     <string name="action_settings">Settings</string>
 
+<<<<<<< HEAD
+=======
+    <string name="category">Category:</string>
+    <string name="style">Style:</string>
+    <string name="weather">Weather:</string>
+    <string name="occasion">Occasion:</string>
+    <string name="color">Color:</string>
+    <string name="tags">Tags:</string>
+    <string name="notes">Notes:</string>
+
+>>>>>>> refs/remotes/origin/AllanCloset
     <!-- bottom bar -->
     <string name="closet">closet</string>
     <string name="outfit_gen">outfit generator</string>

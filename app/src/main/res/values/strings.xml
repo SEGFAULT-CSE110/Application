@@ -2,6 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="app_name">View Article</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -19,4 +20,10 @@
     <string name="outfit_gen">outfit generator</string>
     <string name="lookbook">lookbook</string>
     <string name="more">more</string>
+=======
+    <string name="outfit_creator">Outfit Creator</string>
+    <string name="lookbook">Lookbook</string>
+    <string name="closet">Closet</string>
+    <string name="icloset">iCloset</string>
+>>>>>>> refs/remotes/origin/Home
 </resources>

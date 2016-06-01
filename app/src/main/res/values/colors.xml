@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+<<<<<<< HEAD
+=======
     <color name="colorPrimary">#c1dad6</color>
     <color name="colorPrimaryDark">#6d929b</color>
     <color name="colorAccent">#e8d0a9</color>
+>>>>>>> refs/remotes/origin/AllanCloset
+
+    <!-- bottom bar buttons -->
+    <color name="colorButtonCloset">#F5FAFA</color>
+    <color name="colorButtonOutfitGen">#ACD1E9</color>
+    <color name="colorButtonLookbook">#6D929B</color>
+    <color name="colorButtonMore">#E8D0A9</color>
+=======
+
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+>>>>>>> refs/remotes/origin/ClosetChris
 </resources>

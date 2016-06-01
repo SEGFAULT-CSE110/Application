@@ -18,8 +18,15 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+<<<<<<< HEAD
     <style name="ClosetAppTheme" parent="AppTheme" >
         <item name="android:colorBackground">@color/background_material_light_closet</item>
     </style>
+=======
+    <style name="PhotoGridLayout">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/photogrid_list_selector</item>
+    categoryGridLayout</style>
+>>>>>>> refs/remotes/origin/ClosetChris
 
 </resources>
